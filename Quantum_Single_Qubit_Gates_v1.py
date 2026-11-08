@@ -20,9 +20,9 @@ random.seed(39)
 np.random.seed(39)
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89_loto_2980.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89_loto_plus_1736.csv"),
+    Path("/data/loto7_4716_k89.csv"),
+    Path("/data/loto7_4716_k89_loto_2980.csv"),
+    Path("/data/loto7_4716_k89_loto_plus_1736.csv"),
 )
 
 TITLE = "Quantum Single Qubit Gates"
@@ -2064,13 +2064,13 @@ Udeo istorijskih raspona manjih ili jednakih NEXT rasponu: 92.450%
 ZAVRSNE NEXT KOMBINACIJE
 
 loto7_4716_k89.csv
-NEXT: 1 7 16 17 29 32 37
+NEXT: 1 x 16 y 29 z 37
 
 loto7_4716_k89_loto_2980.csv
-NEXT: 1 5 13 17 29 31 37
+NEXT: 1 x 13 y 29 z 37
 
 loto7_4716_k89_loto_plus_1736.csv
-NEXT: 1 8 15 17 25 32 37
+NEXT: 1 x 15 y 25 z 37
 """
 
 
@@ -2203,35 +2203,4 @@ Kandidati za period procenjuju se na treningu, a konačni model bira hronološko
 
 Simonova provera koristi 12 kubita. 
 Predikcija koristi sedam zasebnih registara sa po šest kubita. 
-"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-single-qubit-gates-17a5a419ed7c
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-multiple-qubits-and-entanglement-39b8ffa9b95d
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-representing-qubit-state-aed033b612d0
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-atoms-of-computation-463eb0a038aa
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-shors-algorithm-971b3f6d8795
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-quantum-fourier-transform-e27176c8f378
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-bernstein-vazirani-algorithm-fa1300517624
-
-https://medium.com/@_monitsharma/learn-quantum-computing-with-qiskit-simons-algorithm-8525adecd091
 """
